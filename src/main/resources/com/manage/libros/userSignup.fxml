@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.libros.UserLoginSignupController">
+    <VBox alignment="TOP_RIGHT" prefHeight="555.0" prefWidth="584.0">
+        <Button alignment="TOP_LEFT" contentDisplay="TOP" mnemonicParsing="false" onAction="#homepage" style="-fx-background-color: transparent;" text="Back" textAlignment="CENTER" />
+        <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="20.0" prefHeight="150.0" prefWidth="580.0" text="User Signup" textAlignment="CENTER">
+            <font>
+                <Font name="JetBrains Mono NL ExtraBold" size="53.0" />
+            </font>
+        </Label>
+        <HBox alignment="CENTER" prefHeight="53.0" prefWidth="584.0">
+            <Label text="Username : ">
+                <font>
+                    <Font name="JetBrains Mono ExtraBold" size="13.0" />
+                </font>
+            </Label>
+            <TextField fx:id="signupUsername" prefHeight="35.0" prefWidth="215.0" promptText="Enter Username">
+                <font>
+                    <Font name="JetBrains Mono ExtraLight" size="13.0" />
+                </font>
+            </TextField>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="54.0" prefWidth="584.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="85.0" text="Age : ">
+                <font>
+                    <Font name="JetBrains Mono ExtraBold" size="13.0" />
+                </font>
+            </Label>
+            <TextField fx:id="signupAge" prefHeight="34.0" prefWidth="216.0" promptText="Enter Age">
+                <font>
+                    <Font name="JetBrains Mono NL ExtraLight" size="13.0" />
+                </font>
+            </TextField>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="56.0" prefWidth="584.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="88.0" text="Email: ">
+                <font>
+                    <Font name="JetBrains Mono ExtraBold" size="13.0" />
+                </font>
+            </Label>
+            <TextField fx:id="signupMail" prefHeight="34.0" prefWidth="216.0" promptText="Enter Email">
+                <font>
+                    <Font name="JetBrains Mono NL ExtraLight" size="13.0" />
+                </font>
+            </TextField>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="584.0">
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="90.0" text="Password : ">
+                <font>
+                    <Font name="JetBrains Mono ExtraBold" size="13.0" />
+                </font>
+            </Label>
+            <TextField fx:id="signupPassword" prefHeight="34.0" prefWidth="216.0" promptText="Enter Password">
+                <font>
+                    <Font name="JetBrains Mono NL ExtraLight" size="13.0" />
+                </font>
+            </TextField>
+        </HBox>
+        <HBox alignment="CENTER">
+            <Label fx:id="signupError" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="572.0">
+                <font>
+                    <Font name="JetBrains Mono NL ExtraLight" size="13.0" />
+                </font>
+            </Label>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="584.0" spacing="20.0">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+            <Button onAction="#signUp" fx:id="signupButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false"  style="-fx-background-color: #d3d3d3; -fx-background-radius: 10;" text="Signup" textAlignment="CENTER">
+                <font>
+                    <Font name="JetBrains Mono NL Medium" size="17.0" />
+                </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #d3d3d3; -fx-background-radius: 10;" text="Reset">
+                <font>
+                    <Font name="JetBrains Mono Medium" size="17.0" />
+                </font>
+            </Button>
+        </HBox>
+        <HBox alignment="CENTER" prefWidth="584.0">
+            <Label onMouseClicked="#goToSignin" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="217.0" text="Already has account? Signin" textAlignment="JUSTIFY">
+                <font>
+                    <Font name="JetBrains Mono NL ExtraLight Italic" size="13.0" />
+                </font>
+            </Label>
+        </HBox>
+    </VBox>
+</TilePane>
