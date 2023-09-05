@@ -1,4 +1,4 @@
-package com.manage.libros;
+package com.manage.lms;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -27,7 +27,7 @@ public class UserLoginSignupController {
 
     // leads back to home
     public void homepage() throws IOException {
-        fxmlLoader = new FXMLLoader(Main.class.getResource("libros.fxml"));
+        fxmlLoader = new FXMLLoader(Main.class.getResource("lms.fxml"));
         Main.mainStage.setScene(new Scene(fxmlLoader.load()));
     }
 
@@ -46,7 +46,7 @@ public class UserLoginSignupController {
 
     public void userLoginButton(){
         String serverName = "localhost";
-        String mydatabase = "Libros";
+        String mydatabase = "lms";
         String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
         System.out.println(loginUsername.getText());
         System.out.println(loginPassword.getText());
@@ -88,7 +88,7 @@ public class UserLoginSignupController {
     // adds a new user to Users table and generate a table of same name
     public void signUp() {
         String serverName = "localhost";
-        String mydatabase = "Libros";
+        String mydatabase = "lms";
         String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 
         boolean status = false;

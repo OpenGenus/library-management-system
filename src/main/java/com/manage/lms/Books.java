@@ -1,4 +1,4 @@
-package com.manage.libros;
+package com.manage.lms;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;

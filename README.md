@@ -1,9 +1,9 @@
-# Libros
+# LMS
 
-Libros is a JavaFX application for managing your personal book collection. It provides a user-friendly interface to add, remove books.
+LMS is a JavaFX application for managing your personal book collection. It provides a user-friendly interface to add, remove books.
 ## Installation
 
-To run Libros, make sure you have Java Development Kit (JDK) 8 or higher installed on your machine. You can download the latest JDK from the official Oracle website.
+To run LMS, make sure you have Java Development Kit (JDK) 8 or higher installed on your machine. You can download the latest JDK from the official Oracle website.
 
 Once you have Java installed, follow these steps:
 
@@ -16,7 +16,7 @@ mvn javafx:run
 
 ## Dependencies
 
-Libros relies on the following dependencies:
+LMS relies on the following dependencies:
 
 - JavaFX 8.0 or higher
 - Maven 3.0 or higher

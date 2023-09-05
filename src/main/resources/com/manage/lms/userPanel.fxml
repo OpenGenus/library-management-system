@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="692.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.libros.BooksUserController">
+<TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="692.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.lms.BooksUserController">
     <VBox alignment="TOP_RIGHT" prefHeight="555.0" prefWidth="686.0">
         <Button alignment="TOP_LEFT" contentDisplay="TOP" mnemonicParsing="false" onAction="#logoutUser" style="-fx-background-color: transparent;" text="Logout" textAlignment="CENTER" />
         <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="20.0" prefHeight="150.0" prefWidth="688.0" text="User Dashboard" textAlignment="CENTER">

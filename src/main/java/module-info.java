@@ -1,4 +1,4 @@
-module com.manage.libros.libros {
+module com.manage.lms {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -8,6 +8,6 @@ module com.manage.libros.libros {
     requires java.sql;
 //    requires eu.hansolo.tilesfx;
 
-    opens com.manage.libros to javafx.fxml;
-    exports com.manage.libros;
+    opens com.manage.lms to javafx.fxml;
+    exports com.manage.lms;
 }

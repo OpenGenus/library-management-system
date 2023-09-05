@@ -1,4 +1,4 @@
-package com.manage.libros;
+package com.manage.lms;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

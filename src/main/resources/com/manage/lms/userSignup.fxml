@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.libros.UserLoginSignupController">
+<TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.lms.UserLoginSignupController">
     <VBox alignment="TOP_RIGHT" prefHeight="555.0" prefWidth="584.0">
         <Button alignment="TOP_LEFT" contentDisplay="TOP" mnemonicParsing="false" onAction="#homepage" style="-fx-background-color: transparent;" text="Back" textAlignment="CENTER" />
         <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="20.0" prefHeight="150.0" prefWidth="580.0" text="User Signup" textAlignment="CENTER">

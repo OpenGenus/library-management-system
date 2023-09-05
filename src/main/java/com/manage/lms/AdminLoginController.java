@@ -1,6 +1,5 @@
-package com.manage.libros;
+package com.manage.lms;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -29,7 +28,7 @@ public class AdminLoginController {
     // admin login button handler
     public void adminLoginButton() throws IOException {
         String serverName = "localhost";
-        String mydatabase = "Libros";
+        String mydatabase = "lms";
         String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
 
         try {
@@ -51,7 +50,7 @@ public class AdminLoginController {
 
     }
     public void homepage() throws IOException {
-        fxmlLoader = new FXMLLoader(Main.class.getResource("libros.fxml"));
+        fxmlLoader = new FXMLLoader(Main.class.getResource("lms.fxml"));
         Main.getMainStage().setScene(new Scene(fxmlLoader.load()));
     }
 }

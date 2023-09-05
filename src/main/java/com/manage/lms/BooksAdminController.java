@@ -1,4 +1,4 @@
-package com.manage.libros;
+package com.manage.lms;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -60,7 +60,7 @@ public class BooksAdminController implements Initializable {
     public void logoutAdmin(){
         try {
             connection.close();
-            fxmlLoader = new FXMLLoader(Main.class.getResource("libros.fxml"));
+            fxmlLoader = new FXMLLoader(Main.class.getResource("lms.fxml"));
             Main.getMainStage().setScene(new Scene(fxmlLoader.load()));
         } catch (IOException | SQLException e) {
             throw new RuntimeException(e);

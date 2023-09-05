@@ -9,14 +9,14 @@
 <?import javafx.scene.text.Font?>
 
 <TilePane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="421.0" prefWidth="680.0"
-          xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.libros.Main">
+          xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.lms.Main">
    <VBox alignment="CENTER" prefHeight="360.0" prefWidth="627.0">
       <HBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="165.0" prefWidth="649.0">
          <opaqueInsets>
             <Insets/>
          </opaqueInsets>
          <Label alignment="CENTER" contentDisplay="TOP" graphicTextGap="50.0" prefHeight="97.0" prefWidth="519.0"
-                text="Libros" textAlignment="JUSTIFY">
+                text="LMS" textAlignment="JUSTIFY">
             <font>
                <Font name="JetBrains Mono NL ExtraBold" size="72.0"/>
             </font>

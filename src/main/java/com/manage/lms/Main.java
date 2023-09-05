@@ -1,4 +1,4 @@
-package com.manage.libros;
+package com.manage.lms;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -15,7 +15,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         mainStage = stage;
-        fxmlLoader = new FXMLLoader(Main.class.getResource("libros.fxml"));
+        fxmlLoader = new FXMLLoader(Main.class.getResource("lms.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         mainStage.setScene(scene);
         mainStage.show();
