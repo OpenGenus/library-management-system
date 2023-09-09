@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manage.lms.NewBookController">
+   <VBox prefHeight="482.0" prefWidth="558.0">
+      <HBox alignment="CENTER" prefHeight="149.0" prefWidth="558.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" text="Add New Book" textAlignment="CENTER">
+            <font>
+               <Font name="JetBrains Mono NL ExtraBold" size="32.0" />
+            </font>
+         </Label>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="55.0" prefWidth="558.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="173.0" text="Book Name  : ">
+            <font>
+               <Font name="JetBrains Mono NL ExtraBold" size="13.0" />
+            </font>
+         </Label>
+         <TextField fx:id="newBookName" prefHeight="40.0" prefWidth="200.0" promptText="Enter Book Name" style="-fx-background-radius: 12;">
+            <font>
+               <Font name="JetBrains Mono ExtraLight" size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="50.0" prefWidth="558.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="173.0" text="Author Name : ">
+            <font>
+               <Font name="JetBrains Mono NL ExtraBold" size="13.0" />
+            </font>
+         </Label>
+         <TextField fx:id="newBookAuthor" prefHeight="40.0" prefWidth="200.0" promptText="Enter Author Name" style="-fx-background-radius: 12;">
+            <font>
+               <Font name="JetBrains Mono ExtraLight" size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="49.0" prefWidth="558.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="173.0" text="Year : ">
+            <font>
+               <Font name="JetBrains Mono NL ExtraBold" size="13.0" />
+            </font>
+         </Label>
+         <TextField fx:id="newBookYear" prefHeight="40.0" prefWidth="200.0" promptText="Enter Published Year" style="-fx-background-radius: 12;">
+            <font>
+               <Font name="JetBrains Mono ExtraLight" size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="46.0" prefWidth="558.0">
+         <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="173.0" text="Stocks : ">
+            <font>
+               <Font name="JetBrains Mono ExtraBold" size="13.0" />
+            </font>
+         </Label>
+         <TextField fx:id="newBookStocks" prefHeight="40.0" prefWidth="200.0" promptText="Enter no of books available" style="-fx-background-radius: 12;">
+            <font>
+               <Font name="JetBrains Mono ExtraLight" size="13.0" />
+            </font></TextField>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="39.0" prefWidth="558.0">
+         <Label fx:id="newBookError">
+            <font>
+               <Font name="JetBrains Mono Regular" size="13.0" />
+            </font></Label>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="63.0" prefWidth="558.0" spacing="15.0">
+         <Button onAction="#Book2DB" fx:id="newBookAdd" mnemonicParsing="false" prefHeight="34.0" prefWidth="81.0" style="-fx-background-color: #D1D0CE; -fx-background-radius: 10;" text="Add">
+            <font>
+               <Font name="JetBrains Mono ExtraBold" size="14.0" />
+            </font>
+         </Button>
+         <Button onAction="#cancelNewBook" fx:id="newBookCancel" mnemonicParsing="false" prefHeight="34.0" prefWidth="78.0" style="-fx-background-color: #D1D0CE; -fx-background-radius: 10;" text="Cancel">
+            <font>
+               <Font name="JetBrains Mono ExtraBold" size="13.0" />
+            </font>
+         </Button>
+      </HBox>
+   </VBox>
+</FlowPane>
