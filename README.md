@@ -1,6 +1,9 @@
-# LMS
+# LMS (Library Management System in Java)
 
 LMS is a JavaFX application for managing your personal book collection. It provides a user-friendly interface to add, remove books.
+
+[Step-by-step explanation](https://iq.opengenus.org/library-management-system-in-java/) of developing this app from scratch.
+
 ## Installation
 
 To run LMS, make sure you have Java Development Kit (JDK) 8 or higher installed on your machine. You can download the latest JDK from the official Oracle website.
